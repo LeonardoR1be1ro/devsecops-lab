@@ -17,7 +17,7 @@ chmod +x ./kind
 sudo mv kind /usr/local/bin
 
 echo "[+] Instalando Kubectl"
-curl -Lo "https://dl.k8s.io/release/v1.33.0/bin/linux/amd64/kubectl"
+curl -LO "https://dl.k8s.io/release/v1.27.3/bin/linux/amd64/kubectl"
 chmod +x kubectl
 sudo mv kubectl /usr/local/bin
 
